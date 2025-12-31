@@ -56,3 +56,22 @@ print("------------------------------------------------")
 print(f"✅ WEEK 2 COMPLETE: Dynamics function defined for {N} nodes.")
 print("✅ Deliverable 'excitability_map_a.npy' saved.")
 print("------------------------------------------------")
+
+import numpy as np
+
+# 1. Load the binary file
+a_map = np.load('excitability_map_a.npy')
+
+# 2. Check the basics
+print(f"Total Brain Regions: {len(a_map)}")
+print(f"First 5 values: {a_map[:5]}")
+
+# 3. Find your seizure focus (the 'sick' node)
+seizure_indices = np.where(a_map > 0)[0]
+print(f"Seizure focus found at indices: {seizure_indices}")
+print(f"Value at focus: {a_map[seizure_indices[0]]}")
+
+# 4. Count healthy vs sick
+healthy_count = np.sum(a_map < 0)
+sick_count = np.sum(a_map > 0)
+print(f"Brain Summary: {healthy_count} healthy regions, {sick_count} seizure regions.")

@@ -1,0 +1,2 @@
+axis,value,n_trials,n_success,success_rate,ci95_low,ci95_high,is_in_distribution,energy_mean,mean_n_interventions
+G_COUPLING,2.0,20,19,0.9500,0.7639,0.9911,no,4.4120,4.95

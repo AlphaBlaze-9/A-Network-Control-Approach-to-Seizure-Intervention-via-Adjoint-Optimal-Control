@@ -1,0 +1,12 @@
+metric,value
+n_trials,100
+successes,93
+success_rate,0.9300
+success_ci95_low,0.8625
+success_ci95_high,0.9657
+energy_mean,2.7691
+energy_ci95_halfwidth,0.1407
+zone_amp_mean,0.1591
+zone_amp_ci95_halfwidth,0.0144
+u_max,0.5
+scale,scale=REDUCED 60-node sub-network

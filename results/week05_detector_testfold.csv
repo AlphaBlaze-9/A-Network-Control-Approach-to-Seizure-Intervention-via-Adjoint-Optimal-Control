@@ -1,0 +1,2 @@
+selection_rule,op_threshold,fold,TPR,FPR,precision,recall,mean_lead_s
+forced to match paper threshold (0.250),0.250,test,0.980,0.900,0.521,0.980,56.94

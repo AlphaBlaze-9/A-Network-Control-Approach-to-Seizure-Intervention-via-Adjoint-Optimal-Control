@@ -1,0 +1,1 @@
+WEEK 3 NOTE -- onset zone ['L_EC', 'L_PreS', 'L_H', 'L_PHA3'] drives connectome-mediated recruitment (r=0.692 between a region's structural connection to the zone and its final amplitude). Ablating the onset-zone edges drops non-zone spread from 0.1369 to 0.0458, confirming the spread is carried by A, not by local dynamics.

@@ -1,0 +1,10 @@
+CPU                : Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+machine/arch       : AMD64
+logical CPUs       : 12
+RAM (total)        : 31.8 GiB
+OS / platform      : Windows-10-10.0.26200-SP0
+Python             : 3.9.13 (CPython)
+numpy              : 2.0.2
+scipy              : 1.13.1
+matplotlib         : 3.9.4
+scikit-learn       : 1.6.1

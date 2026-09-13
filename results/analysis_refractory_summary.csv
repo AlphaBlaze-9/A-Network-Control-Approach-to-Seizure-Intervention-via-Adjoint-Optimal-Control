@@ -1,0 +1,4 @@
+scenario,second_onset_start_step,n_level2_solves,steps_blocked_while_escalating,second_window_mean_amp,second_onset_suppressed
+A: during active schedule,430,1,0,0.0473,yes
+B: inside refractory lockout,540,1,0,0.0251,yes
+C: after refractory ends,610,1,0,0.0361,yes

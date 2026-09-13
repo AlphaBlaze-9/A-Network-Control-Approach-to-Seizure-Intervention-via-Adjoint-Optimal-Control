@@ -1,0 +1,4 @@
+controller,residual_zone_amp,control_energy,off_target_fraction,seizure_suppressed
+uncontrolled,0.6651,0.000,n/a,no
+PI baseline (Wang 2016),0.0500,0.295,0.000,yes
+ours (connectome two-level),0.2996,3.544,0.092,yes

@@ -1,0 +1,3 @@
+scale,N_nodes,dpo_solve_s,closed_loop_s,n_interventions,wallclock_per_sim_s,u_max
+scale=REDUCED 60-node sub-network,60,0.461,23.015,4,0.2877,0.5
+scale=FULL 360-node Glasser,360,1.693,26.388,3,0.3299,0.5

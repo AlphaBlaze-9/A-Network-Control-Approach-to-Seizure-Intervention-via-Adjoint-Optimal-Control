@@ -1,0 +1,22 @@
+WEEK 1 DELIVERABLE -- SCALE PLAN & LITERATURE BASELINE
+======================================================
+Atlas / parcellation : HCP-MMP (Glasser 360)
+Design target        : 360 nodes (full Glasser cortical parcellation)
+Reduced dev scale    : 60 nodes (dense sub-network around the focus)
+Normalisation        : diagonal zeroed, matrix symmetrised, divided by the
+                       largest-magnitude eigenvalue so spectral radius = 1.0
+                       (matches the user's original week1.py recipe).
+Seizure-onset focus  : idx 119 = L_H (left hippocampus)
+                       mesial-temporal zone = {117: 'L_EC', 118: 'L_PreS', 119: 'L_H', 121: 'L_PeEc'}
+
+Scale strategy (honest):
+  * All heavy optimal-control development (Weeks 6-10) is validated first on
+    the 60-node sub-network for speed, then re-run at the full
+    360-node design target at the documented scale-up checkpoint.
+  * EVERY figure is stamped with the scale it was actually produced at via
+    config.scale_label(); a reduced-scale result is never presented as a
+    360-node result.
+  * Switch scales with the SCALE environment variable: `SCALE=reduced ...`.
+
+Chosen Week-10 literature baseline:
+  Wang, Niebur, Hu & Li (2016), 'Suppressing epileptic activity in a neural mass model using a closed-loop proportional-integral controller', Scientific Reports 6:27344. Implemented in src/baselines.py as a PI controller acting on the measured ictal amplitude.

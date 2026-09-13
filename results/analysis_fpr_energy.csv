@@ -1,0 +1,16 @@
+quantity,value
+energy_per_episode_proposed,0.5991
+energy_per_trial_proposed,2.7691
+mean_interventions_per_trial,4.88
+detector_fpr_per_record,0.900
+record_length_s,120
+assumed_events_per_day,8
+detector_records_per_day,720
+expected_false_activations_per_day,640.8
+closedloop_activations_per_day,648.8
+closedloop_daily_energy,388.7
+openloop_amplitude,0.06
+openloop_energy_per_80s,1.1520
+openloop_daily_energy,1244.2
+breakeven_false_activations_per_day,2069
+energy_ratio_open_over_closed,3.20

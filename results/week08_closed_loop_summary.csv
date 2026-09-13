@@ -1,0 +1,5 @@
+condition,final_zone_amp,n_interventions,control_energy,seizure_suppressed
+clean,0.2996,4,3.544,yes
+noisy risk,0.1942,6,3.043,yes
+negative bias,0.3571,2,3.676,no
+positive bias,0.1842,6,3.673,yes

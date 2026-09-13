@@ -1,0 +1,9 @@
+quantity,value
+n_trials,100
+mean_total_energy,2.7691
+real_fraction_mean,0.4992
+real_fraction_sd,0.0537
+imag_fraction_mean,0.5008
+realonly_n_trials,100
+realonly_mean_total_energy,10.5441
+realonly_real_fraction_mean,1.0000

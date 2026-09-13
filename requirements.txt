@@ -1,0 +1,18 @@
+# Core dependencies (required) -------------------------------------------------
+# Versions are the ones this project was developed/tested against; the code uses
+# only stable APIs and should work with any reasonably recent release.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+networkx>=3.0
+
+# Optional ---------------------------------------------------------------------
+# nilearn: enables real anatomical Glasser coordinates for the Week-11 brain
+#          maps. If absent, viz.py falls back to a deterministic connectome
+#          graph layout (the figure annotates which layout was used).
+# nilearn>=0.10
+
+# cvxpy:   not required by these scripts. Included here only because the
+#          project's reference optimisation engine used a CVXPY control-barrier
+#          QP; install it if you want to experiment with that formulation.
+# cvxpy>=1.4

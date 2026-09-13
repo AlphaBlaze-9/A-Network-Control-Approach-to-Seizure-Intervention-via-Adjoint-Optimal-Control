@@ -1,0 +1,2 @@
+axis,value,n_trials,n_success,success_rate,ci95_low,ci95_high,is_in_distribution,energy_mean,mean_n_interventions
+A_SEIZURE,0.9,20,1,0.0500,0.0089,0.2361,no,20.1568,4.55

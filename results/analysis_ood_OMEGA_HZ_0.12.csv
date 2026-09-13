@@ -1,0 +1,2 @@
+axis,value,n_trials,n_success,success_rate,ci95_low,ci95_high,is_in_distribution,energy_mean,mean_n_interventions
+OMEGA_HZ,0.12,20,17,0.8500,0.6396,0.9476,no,2.7719,4.70

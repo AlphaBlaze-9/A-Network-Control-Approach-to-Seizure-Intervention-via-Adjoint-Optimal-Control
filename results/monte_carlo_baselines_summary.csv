@@ -1,0 +1,5 @@
+condition,n_trials,n_success,success_rate,success_ci95_low,success_ci95_high,energy_mean,energy_ci95_halfwidth,energy_median,offtarget_mean,offtarget_ci95_halfwidth,final_zone_amp_mean,final_zone_amp_ci95_halfwidth,mean_n_interventions,real_energy_fraction_mean
+Proposed (closed-loop),100,93,0.9300,0.8625,0.9657,2.7691,0.1407,2.7497,0.1045,0.0041,0.1591,0.0144,4.88,0.4992
+Connectome ablation (naive),100,21,0.2100,0.1417,0.2998,4.7809,0.5030,3.9302,0.5497,0.0400,0.3292,0.0153,5.30,0.5005
+Open-loop DBS surrogate,100,100,1.0000,0.9630,1.0000,1.1520,0.0000,1.1520,0.0000,0.0000,0.0082,0.0001,0.00,0.5006
+PI (Wang 2016),100,100,1.0000,0.9630,1.0000,1.7114,0.1431,1.8206,0.0000,0.0000,0.0090,0.0014,0.00,0.5019

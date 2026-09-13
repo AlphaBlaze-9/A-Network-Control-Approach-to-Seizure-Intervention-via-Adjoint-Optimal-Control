@@ -1,0 +1,8 @@
+strategy,ictal_zone_amp,total_energy,seizure_free_energy,seizure_suppressed
+onset zone (connectome),0.2996,4,3.544,yes
+random nodes (naive),0.3595,5,4.293,no
+single focus only,0.1358,5,2.962,yes
+--- intermittent clinical comparison ---,ictal amp,total energy,free-time energy,
+uncontrolled (intermittent),0.4648,0.000,0.000,no
+always-on open-loop,0.0079,1.728,1.152,yes
+adaptive (L1+triggered),0.1177,0.856,0.248,yes

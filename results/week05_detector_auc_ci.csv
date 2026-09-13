@@ -1,0 +1,2 @@
+fold,AUC,ci95_low,ci95_high,n_pos,n_neg,bootstrap
+test,0.8892,0.8200,0.9500,50,50,2000

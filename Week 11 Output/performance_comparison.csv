@@ -1,2 +1,0 @@
-n_nodes,n_steps,dt,threshold,baseline_k,baseline_mag,baseline_nodes,energy_cbf,energy_baseline,efficiency_ratio_baseline_over_cbf,percent_energy_saved_vs_baseline,overlap_cbf_topk_with_baseline
-50,8000,0.050000,1.000000,3,2.000,"[2, 25, 42]",37867.767977,96000.000000,2.535138,60.554,1
